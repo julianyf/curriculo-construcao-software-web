@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
+    font-family: system-ui;
+}
+.main{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color: #222222;
+    color: white;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid #222222;
+}
+.header img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.main-container{
+    width: 90%;
+    border: 2px solid #222222;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
